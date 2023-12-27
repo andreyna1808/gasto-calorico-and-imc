@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E8E6E6"
     tools:context=".MainActivity">
 
     <ImageView
@@ -23,6 +24,10 @@
         android:layout_marginTop="32dp"
         android:backgroundTint="#520260"
         android:text="Calcular IMC"
+        android:textColor="#F8F8F8"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
         app:cornerRadius="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,6 +40,10 @@
         android:layout_marginTop="32dp"
         android:backgroundTint="#520260"
         android:text="Calcular Gasto Calórico"
+        android:textColor="#E4E4E4"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
         app:cornerRadius="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
